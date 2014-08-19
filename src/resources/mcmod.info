@@ -1,0 +1,21 @@
+[
+{
+    "modid": "BrainCore",
+    "name": "Brain Core",
+    "description": "Core mod",
+    "version": "${version}",
+	"mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+        "Arkandos"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent": "",
+    "dependencies": [
+    ]
+}
+]
