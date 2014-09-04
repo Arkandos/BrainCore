@@ -86,6 +86,53 @@ public class HarvestCraftHandler
         }
     }
 
+    public static enum Fruits
+    {
+        almond,
+        apricot,
+        avocado,
+        banana,
+        cashew,
+        cherry,
+        chestnut,
+        cinnamon,
+        coconut,
+        date,
+        dragonfruit,
+        durian,
+        fig,
+        grape,
+        lemon,
+        lime,
+        mango,
+        nutmeg,
+        olive,
+        orange,
+        papaya,
+        peach,
+        pear,
+        pecan,
+        peppercorn,
+        persimmon,
+        pistachio,
+        plum,
+        pomegranate,
+        starfruit,
+        vanillabean,
+        walnut,
+        ;
+
+        public String getFruit()
+        {
+            return this.toString() + "Item";
+        }
+
+        public String getSapling()
+        {
+            return "pam" + this.toString() + "Sapling";
+        }
+    }
+
     public static String getName()
     {
         return NAME;
