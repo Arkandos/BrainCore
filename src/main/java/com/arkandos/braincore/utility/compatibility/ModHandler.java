@@ -6,6 +6,7 @@ public class ModHandler
     {
         BiomesOPlentyHandler.preInit();
         HarvestCraftHandler.preInit();
+        MaricultureHandler.preInit();
         MekanismHandler.preInit();
         MineFactoryReloadedHandler.preInit();
         WitcheryHandler.preInit();
@@ -15,6 +16,7 @@ public class ModHandler
     {
         BiomesOPlentyHandler.init();
         HarvestCraftHandler.init();
+        MaricultureHandler.init();
         MekanismHandler.init();
         MineFactoryReloadedHandler.init();
         WitcheryHandler.init();
@@ -24,6 +26,7 @@ public class ModHandler
     {
         BiomesOPlentyHandler.postInit();
         HarvestCraftHandler.postInit();
+        MaricultureHandler.postInit();
         MekanismHandler.postInit();
         MineFactoryReloadedHandler.postInit();
         WitcheryHandler.postInit();

@@ -133,6 +133,36 @@ public class HarvestCraftHandler
         }
     }
 
+    public static enum Fish
+    {
+        perch,
+        herring,
+        octopus,
+        carp,
+        catfish,
+        scallop,
+        turtle,
+        jellyfish,
+        bass,
+        grouper,
+        shrimp,
+        tilapia,
+        trout,
+        crayfish,
+        walleye,
+        eel,
+        crab,
+        anchovy,
+        clam,
+        snapper,
+        snail,
+        ;
+
+        public String getFish(){
+            return this.toString() + "rawItem";
+        }
+    }
+
     public static String getName()
     {
         return NAME;
