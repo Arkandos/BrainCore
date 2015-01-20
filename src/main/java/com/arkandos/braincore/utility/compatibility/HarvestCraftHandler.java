@@ -156,6 +156,10 @@ public class HarvestCraftHandler
         clam,
         snapper,
         snail,
+        tuna,
+        mudfish,
+        frog,
+        charr,
         ;
 
         public String getFish(){
